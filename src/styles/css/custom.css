@@ -6752,4 +6752,7 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   color: #88ff00; }
 
+.jumbotron {
+  height: 100vh; }
+
 /*# sourceMappingURL=custom.css.map */

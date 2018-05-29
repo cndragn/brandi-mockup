@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Navigation} from './components/Nav';
-import logo from './logo.svg';
+import {Jumbotron} from './components/Jumbotron';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
       < Navigation />
+      < Jumbotron />
         <header className="App-header">
         
         </header>
