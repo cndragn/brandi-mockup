@@ -1,34 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans|Lato|Norican');
+@import url('https://fonts.googleapis.com/css?family=Hind:500,600|Norican');
 @import "partials/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 $navbar-brand-font-size: 2.25rem;
 
 .navbar {
-    color: #fff;
+    color: #bebebe;
     font-size: 0.9rem;
     font-family: $font-family-tiny;
     padding: 0 50px;
+    font-weight: 500;
+
+    .navbar-brand {
+        font-family: $font-family-cursive;
+        font-size: 2.2rem;
+    }
+
+    .sep {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
 }
-.navbar-brand {
-    font-family: $font-family-cursive;
-    font-size: 2.2rem;
-}
-.navbar .sep {
-    color: #6f8284;
-    font-size: 1rem;
-    padding: 0 10px;
-}
-.navbar .tagline {
-    color: #6f8284;
-}
+
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-    font-weight: bold;
+    color: #f2f2f2;
+    font-weight: 600;
 }
+
 li.nav-item {
     padding: 0 10px;
 }
+
+
+
 .jumbotron{
     height: 100vh;
 }
