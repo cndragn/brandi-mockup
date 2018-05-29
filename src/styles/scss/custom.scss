@@ -7,7 +7,6 @@ $navbar-brand-font-size: 2.25rem;
 .navbar {
     color: #bebebe;
     font-size: 0.9rem;
-    font-family: $font-family-tiny;
     padding: 0 50px;
     font-weight: 300;
 
@@ -35,4 +34,68 @@ li.nav-item {
 
 .jumbotron{
     height: 100vh;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    h1, h2, h3 {
+        font-weight: 300;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+        margin-bottom: 0;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    h2 {
+        font-size: 3rem;
+        
+        span {
+            color: $primary;
+            font-weight: 400;
+        }
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .container.social {
+        margin-top: 100px;
+    }
+}
+
+.lined {
+    line-height: 0.5;
+    text-align: center;
+
+    span {
+        display: inline-block;
+        position: relative;  
+
+        &:before,&:after {
+            content: "";
+            position: absolute;
+            height: 5px;
+            border-bottom: 2px solid $primary;
+            top: 0;
+            width: 30px;
+        }
+
+        &:before {
+            right: 100%;
+            margin-right: 20px;
+        }
+
+        &:after {
+            left: 100%;
+            margin-left: 20px;
+        }
+    }
 }
