@@ -1,4 +1,9 @@
-$dark: rgba(0, 0, 0, 0.4);
+$white: #fff;
+$dark: rgba(0, 0, 0, 0.2);
 $primary: #56c79f;
+
+$social-link-color: rgba($white, .5) !default;
+$social-link-hover-color: rgba($white, .90) !default;
+
 $font-family-cursive: 'Norican', cursive;
 $font-family-sans-serif: "Khula", sans-serif;

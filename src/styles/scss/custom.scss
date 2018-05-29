@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700|Hind:500,600|Norican');
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 @import "partials/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
@@ -6,7 +7,7 @@ $navbar-brand-font-size: 2.25rem;
 
 .navbar {
     color: #bebebe;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding: 0 50px;
     font-weight: 300;
 
@@ -69,6 +70,22 @@ li.nav-item {
     .container.social {
         margin-top: 100px;
     }
+}
+
+.social {
+    .fa {
+        font-size: 1.3rem;
+        padding: 0 8px;
+    }
+
+    a {
+        color: $social-link-color;
+
+        &:hover {
+            color: $social-link-hover-color;
+        }
+    }
+
 }
 
 .lined {
