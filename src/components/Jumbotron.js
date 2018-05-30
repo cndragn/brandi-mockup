@@ -20,10 +20,10 @@ export class Jumbotron extends React.Component {
                     </div>
                 </div>
                 <div className="container social">
-                <a href="#"><FontAwesome name='twitter' /></a>
-                <a href="#"><FontAwesome name='facebook-f' /></a>
-                <a href="#"><FontAwesome name='google-plus' /></a>
-                <a href="#"><FontAwesome name='dribbble' /></a>
+                <a href="http://www.twitter.com"><FontAwesome name='twitter' /></a>
+                <a href="http://www.facebook.com"><FontAwesome name='facebook-f' /></a>
+                <a href="http://www.google.com"><FontAwesome name='google-plus' /></a>
+                <a href="http://www.google.com"><FontAwesome name='dribbble' /></a>
                 </div>
             </div>
         );
