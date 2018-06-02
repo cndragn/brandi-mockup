@@ -3,9 +3,13 @@ $aqua: #4cb28f;
 $off-white: #f5f7fb;
 $black-sheer: rgba(0, 0, 0, 0.2);
 
+$gray-600: #6c757d !default;
+
 $primary: $aqua;
 $secondary: $off-white;
 $dark: $black-sheer;
+
+$body-color:                $gray-600 !default;
 
 $social-link-color: rgba($white, .5) !default;
 $social-link-hover-color: rgba($white, .90) !default;

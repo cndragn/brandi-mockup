@@ -25,12 +25,18 @@
 
 section {
     padding: 60px;
-    
-    h1 {
+
+    h2 {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 1.8rem;
         color: $primary;
+    }
+
+    h3 {
+        color:  $gray-700;
+        font-size: 1.2rem;
+        font-weight: 600;
     }
 
     .lined em {

@@ -5,8 +5,9 @@ export class Features extends React.Component {
     render () {
         return (
             <section class="features">
-                <h1>Features</h1>
+                <h2>Features</h2>
                 <Divider />
+                <h3>Another Header</h3>
                 <p>These are features</p>
             </section>
         );
