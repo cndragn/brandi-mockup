@@ -6794,12 +6794,13 @@ a.text-dark:hover, a.text-dark:focus {
     font-weight: 500; }
   .jumbotron .container.social {
     margin-top: 100px; }
-  .jumbotron .lined span:before, .jumbotron .lined span:after {
-    border-bottom: 2px solid #4cb28f; }
-  .jumbotron .lined span:before {
+  .jumbotron .lined em:before, .jumbotron .lined em:after {
+    border-bottom: 2px solid #4cb28f;
+    width: 30px; }
+  .jumbotron .lined em:before {
     right: 100%;
     margin-right: 20px; }
-  .jumbotron .lined span:after {
+  .jumbotron .lined em:after {
     left: 100%;
     margin-left: 20px; }
 
@@ -6814,28 +6815,32 @@ a.text-dark:hover, a.text-dark:focus {
 .lined {
   line-height: 0.5;
   text-align: center; }
-  .lined span {
+  .lined em {
     display: inline-block;
     position: relative; }
-    .lined span:before, .lined span:after {
+    .lined em:before, .lined em:after {
       content: "";
       position: absolute;
       height: 5px;
-      top: 0;
-      width: 30px; }
+      top: 0; }
 
 section h1 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8rem;
   color: #4cb28f; }
-section .lined span:before, section .lined span:after {
-  border-bottom: 2px solid #e9ecef; }
-section .lined span:before {
+section .lined em:before, section .lined em:after {
+  border-bottom: 2px solid #e9ecef;
+  width: 85px; }
+section .lined em:before {
   right: 100%;
-  margin-right: 20px; }
-section .lined span:after {
+  margin-right: 10px; }
+section .lined em:after {
   left: 100%;
-  margin-left: 20px; }
+  margin-left: 10px; }
+section .svg-inline--fa {
+  font-size: 1rem;
+  margin-top: -4px;
+  color: #adb5bd; }
 
 /*# sourceMappingURL=custom.css.map */

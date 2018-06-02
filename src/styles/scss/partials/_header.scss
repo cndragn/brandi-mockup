@@ -66,9 +66,10 @@
         margin-top: 100px;
     }
 
-    .lined span {
+    .lined em {
         &:before,&:after {
             border-bottom: 2px solid $primary;
+            width: 30px;
         }
 
         &:before {

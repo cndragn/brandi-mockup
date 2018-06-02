@@ -16,7 +16,7 @@ export class Jumbotron extends React.Component {
                     <div>
                     <h1>Meet <span>Brandi</span>!</h1> 
                     <h2><span>/creative</span> one page template</h2> 
-                    <h3 className="lined"><span>We are a team of professionals</span></h3>
+                    <h3 className="lined"><em>We are a team of professionals</em></h3>
                     </div>
                 </div>
                 <div className="container social">
