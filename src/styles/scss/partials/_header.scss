@@ -1,0 +1,100 @@
+.navbar {
+    color: $off-white;
+    font-size: 0.8rem;
+    padding: 0 50px;
+    font-weight: 300;
+
+    .navbar-brand {
+        font-family: $font-family-cursive;
+        font-size: 2.2rem;
+    }
+
+    .sep {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $gray-200;
+    font-weight: 600;
+    padding: 21px 15px;
+    
+    &:hover {
+        border-top: 3px solid $primary;
+        padding-top: 18px;
+    }
+}
+
+
+
+.jumbotron{
+    height: 100vh;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    h1, h2, h3 {
+        font-weight: 300;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+        margin-bottom: 0;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    h2 {
+        font-size: 3rem;
+        
+        span {
+            color: $primary;
+            font-weight: 400;
+        }
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .container.social {
+        margin-top: 100px;
+    }
+
+    .lined span {
+        &:before,&:after {
+            border-bottom: 2px solid $primary;
+        }
+
+        &:before {
+            right: 100%;
+            margin-right: 20px;
+        }
+
+        &:after {
+            left: 100%;
+            margin-left: 20px;
+        }
+    }
+}
+
+.social {
+    .fa {
+        font-size: 1.3rem;
+        padding: 0 8px;
+    }
+
+    a {
+        color: $social-link-color;
+
+        &:hover {
+            color: $social-link-hover-color;
+        }
+    }
+
+}

@@ -1,9 +1,15 @@
 $white: #fff;
-$dark: rgba(0, 0, 0, 0.2);
-$primary: #56c79f;
+$aqua: #4cb28f;
+$off-white: #bebebe;
+$black-sheer: rgba(0, 0, 0, 0.2);
+
+$primary: $aqua;
+$dark: $black-sheer;
 
 $social-link-color: rgba($white, .5) !default;
 $social-link-hover-color: rgba($white, .90) !default;
 
 $font-family-cursive: 'Norican', cursive;
 $font-family-sans-serif: "Khula", sans-serif;
+
+$navbar-brand-font-size: 2.25rem;

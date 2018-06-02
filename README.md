@@ -2,7 +2,7 @@
 
 Demo: http://brandi-react.surge.sh/
 
-PSD Mockup: [Brandi One Page PSD Template](http://kreativeshowcase.com/2014/03/freebie-brandi-creative-one-page-multi-purpose-psd-template/)
+PSD Mockup: [Brandi One Page PSD Template](https://i2.wp.com/kreativeshowcase.com/wp-content/uploads/2014/03/01_Bandi_LandingPage_PSD_Template1_by_Kreativeshowcase.jpg)
 
 ## Description
 
