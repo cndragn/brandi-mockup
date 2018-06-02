@@ -25,7 +25,7 @@ export class Navigation extends React.Component {
   }
   render() {
     return (
-      <div>
+      <header>
         <Navbar color="dark" dark expand="md" className="fixed-top">
           <NavbarBrand href="/">Brandi</NavbarBrand>
           <div class="sep">|</div><div class="tagline">I am your tag line</div>
@@ -50,7 +50,7 @@ export class Navigation extends React.Component {
             </Nav>
           </Collapse>
         </Navbar>
-      </div>
+      </header>
     );
   }
 }

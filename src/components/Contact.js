@@ -1,13 +1,13 @@
 import React from 'react';
 import {Divider} from './Divider';
 
-export class Features extends React.Component {
+export class Contact extends React.Component {
     render () {
         return (
-            <section class="features">
-                <h1>Features</h1>
+            <section>
+                <h1>Let's Discuss</h1>
                 <Divider />
-                <p>These are features</p>
+                <p>blah, blah, blah</p>
             </section>
         );
     }

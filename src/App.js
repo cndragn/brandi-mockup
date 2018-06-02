@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import {Navigation} from './components/Nav';
 import {Jumbotron} from './components/Jumbotron';
 import {Features} from './components/Features';
+import {Works} from './components/Works';
+import {Team} from './components/Team';
+import {Facts} from './components/Facts';
+import {Contact} from './components/Contact';
 import './App.css';
 
 class App extends Component {
@@ -11,12 +15,10 @@ class App extends Component {
       < Navigation />
       < Jumbotron />
       < Features />
-        <header className="App-header">
-        
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      < Works />
+      < Team />
+      < Facts />
+      < Contact />
       </div>
     );
   }

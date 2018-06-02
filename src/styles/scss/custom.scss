@@ -3,6 +3,7 @@
 @import "partials/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "partials/header";
+@import "partials/features";
 
 
 .lined {
@@ -23,6 +24,8 @@
 }
 
 section {
+    padding: 60px;
+    
     h1 {
         text-transform: uppercase;
         font-weight: 700;
