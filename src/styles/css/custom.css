@@ -6862,9 +6862,9 @@ section {
     section .lined em:after {
       left: 100%;
       margin-left: 10px; }
-  section .svg-inline--fa {
-    font-size: 1rem;
-    margin-top: -4px;
-    color: #adb5bd; }
+    section .lined em .svg-inline--fa {
+      font-size: 1rem;
+      margin-top: -4px;
+      color: #adb5bd; }
 
 /*# sourceMappingURL=custom.css.map */
