@@ -1,3 +1,16 @@
 .features {
     background-color: $secondary;
+
+    .col-md-4 {
+        display: flex;
+
+        svg {
+            color: $primary;
+            border: 1px solid $primary;
+            border-radius: 50%;
+            font-size: 40px;
+            padding: 10px;
+            margin-right: 13px;
+        }
+    }
 }

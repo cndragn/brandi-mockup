@@ -40,20 +40,23 @@ section {
         font-weight: 600;
     }
 
-    .lined em {
-        &:before,&:after {
-            border-bottom: 2px solid $gray-200;
-            width: 85px;
-        }
+    .lined {
+        margin-bottom: 50px;
+        em {
+            &:before,&:after {
+                border-bottom: 2px solid $gray-200;
+                width: 85px;
+            }
 
-        &:before {
-            right: 100%;
-            margin-right: 10px;
-        }
+            &:before {
+                right: 100%;
+                margin-right: 10px;
+            }
 
-        &:after {
-            left: 100%;
-            margin-left: 10px;
+            &:after {
+                left: 100%;
+                margin-left: 10px;
+            }
         }
     }
 

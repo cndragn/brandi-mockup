@@ -6817,6 +6817,15 @@ a.text-dark:hover, a.text-dark:focus {
 
 .features {
   background-color: #f5f7fb; }
+  .features .col-md-4 {
+    display: flex; }
+    .features .col-md-4 svg {
+      color: #4cb28f;
+      border: 1px solid #4cb28f;
+      border-radius: 50%;
+      font-size: 40px;
+      padding: 10px;
+      margin-right: 13px; }
 
 .lined {
   line-height: 0.5;
@@ -6842,15 +6851,17 @@ section {
     color: #495057;
     font-size: 1.2rem;
     font-weight: 600; }
-  section .lined em:before, section .lined em:after {
-    border-bottom: 2px solid #e9ecef;
-    width: 85px; }
-  section .lined em:before {
-    right: 100%;
-    margin-right: 10px; }
-  section .lined em:after {
-    left: 100%;
-    margin-left: 10px; }
+  section .lined {
+    margin-bottom: 50px; }
+    section .lined em:before, section .lined em:after {
+      border-bottom: 2px solid #e9ecef;
+      width: 85px; }
+    section .lined em:before {
+      right: 100%;
+      margin-right: 10px; }
+    section .lined em:after {
+      left: 100%;
+      margin-left: 10px; }
   section .svg-inline--fa {
     font-size: 1rem;
     margin-top: -4px;
