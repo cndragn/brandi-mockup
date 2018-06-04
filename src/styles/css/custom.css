@@ -6815,17 +6815,31 @@ a.text-dark:hover, a.text-dark:focus {
   .social a:hover {
     color: rgba(255, 255, 255, 0.9); }
 
-.features {
+#features {
   background-color: #f5f7fb; }
-  .features .col-md-4 {
+  #features .col-md-4 {
     display: flex; }
-    .features .col-md-4 svg {
+    #features .col-md-4 svg {
       color: #4cb28f;
       border: 1px solid #4cb28f;
       border-radius: 50%;
       font-size: 40px;
       padding: 10px;
       margin-right: 13px; }
+
+#team img {
+  max-width: 100%;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%); }
+#team .info {
+  color: #495057; }
+  #team .info p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-weight: 600; }
+  #team .info:hover {
+    color: #4cb28f; }
 
 .lined {
   line-height: 0.5;
@@ -6840,17 +6854,19 @@ a.text-dark:hover, a.text-dark:focus {
       top: 0; }
 
 section {
-  padding: 60px; }
+  padding: 60px 0; }
   section h2 {
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
     font-size: 1.8rem;
     color: #4cb28f; }
-  section h3 {
+  section h3, section h4 {
     color: #495057;
     font-size: 1.2rem;
     font-weight: 600; }
+  section h3 {
+    margin: 50px 0; }
   section .lined {
     margin-bottom: 50px; }
     section .lined em:before, section .lined em:after {

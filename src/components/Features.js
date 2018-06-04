@@ -8,8 +8,8 @@ import faBullhorn from '@fortawesome/fontawesome-free-solid/faBullhorn'
 export class Features extends React.Component {
     render () {
         return (
-            <div class="features">
-                <section class="container">
+            <section id="features">
+                <div class="container">
                     <h2>Features</h2>
                     <Divider />
                     <div class="container-fluid row">
@@ -18,7 +18,7 @@ export class Features extends React.Component {
                                 <FontAwesomeIcon icon={faFeather} />
                             </div>
                             <div>
-                                <h3>Branding</h3>                                
+                                <h4>Branding</h4>                                
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ export class Features extends React.Component {
                                 <FontAwesomeIcon icon={faPencil} />
                             </div>
                             <div>
-                                <h3>Development</h3>                                
+                                <h4>Development</h4>                                
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                             </div>
                         </div>
@@ -38,13 +38,13 @@ export class Features extends React.Component {
                                 <FontAwesomeIcon icon={faBullhorn} />
                             </div>
                             <div>
-                                <h3>Consulting</h3>                                
+                                <h4>Consulting</h4>                                
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
         );
     }
 }

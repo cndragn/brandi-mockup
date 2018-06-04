@@ -4,10 +4,17 @@ import {Divider} from './Divider';
 export class Works extends React.Component {
     render () {
         return (
-            <section>
-                <h1>Works</h1>
-                <Divider />
-                <p>We do stuff</p>
+            <section id="works">
+                <div class="container">
+                    <div>
+                        <h2>Works</h2>
+                        <Divider />
+                        <h3 class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</h3>
+                    </div>
+                </div>
+                <div>
+                    Portfolio and stuff
+                </div>
             </section>
         );
     }
