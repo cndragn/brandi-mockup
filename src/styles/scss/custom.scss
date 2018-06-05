@@ -5,6 +5,7 @@
 @import "partials/header";
 @import "partials/features";
 @import "partials/team";
+@import "partials/facts";
 
 
 .lined {
@@ -49,7 +50,7 @@ section {
         margin-bottom: 50px;
         em {
             &:before,&:after {
-                border-bottom: 2px solid $gray-200;
+                border-bottom: 1px solid $gray-400;
                 width: 85px;
             }
 

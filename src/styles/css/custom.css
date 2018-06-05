@@ -6841,6 +6841,27 @@ a.text-dark:hover, a.text-dark:focus {
   #team .info:hover {
     color: #4cb28f; }
 
+#facts {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff; }
+  #facts .col-md-3 svg {
+    border: 2px solid #6c757d;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 43px; }
+  #facts p {
+    text-transform: uppercase;
+    font-size: 1.2rem; }
+    #facts p.num {
+      font-weight: 600;
+      font-size: 4rem;
+      margin: 30px 0 0;
+      line-height: 4rem; }
+
 .lined {
   line-height: 0.5;
   text-align: center; }
@@ -6870,7 +6891,7 @@ section {
   section .lined {
     margin-bottom: 50px; }
     section .lined em:before, section .lined em:after {
-      border-bottom: 2px solid #e9ecef;
+      border-bottom: 1px solid #ced4da;
       width: 85px; }
     section .lined em:before {
       right: 100%;
