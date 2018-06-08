@@ -6862,6 +6862,43 @@ a.text-dark:hover, a.text-dark:focus {
       margin: 30px 0 0;
       line-height: 4rem; }
 
+.contact-info p {
+  font-size: 0.9rem; }
+  .contact-info p.title {
+    font-size: 1.4rem;
+    color: #343a40; }
+.contact-info .hello .title {
+  font-weight: 700; }
+
+#contact .social {
+  display: flex;
+  flex-direction: column; }
+  #contact .social a {
+    color: #adb5bd; }
+    #contact .social a:hover {
+      color: #6c757d; }
+    #contact .social a .fa {
+      padding: 8px; }
+#contact .form-control {
+  font-size: 0.9rem;
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  padding: 0.375rem 0; }
+#contact ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #adb5bd; }
+#contact :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #adb5bd; }
+#contact ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #adb5bd; }
+#contact .btn-text {
+  background: none;
+  right: 0;
+  padding-right: 0; }
+
 .lined {
   line-height: 0.5;
   text-align: center; }
