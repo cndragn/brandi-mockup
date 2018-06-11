@@ -9,11 +9,11 @@ export class Features extends React.Component {
     render () {
         return (
             <section id="features">
-                <div class="container">
+                <div className="container">
                     <h2>Features</h2>
                     <Divider />
-                    <div class="container-fluid row">
-                        <div class="col-md-4">
+                    <div className="container-fluid row">
+                        <div className="col-md-4">
                             <div>
                                 <FontAwesomeIcon icon={faFeather} />
                             </div>
@@ -23,7 +23,7 @@ export class Features extends React.Component {
                             </div>
                         </div>
                         
-                        <div class="col-md-4">
+                        <div className="col-md-4">
                             <div>
                                 <FontAwesomeIcon icon={faPencil} />
                             </div>
@@ -33,7 +33,7 @@ export class Features extends React.Component {
                             </div>
                         </div>
                         
-                        <div class="col-md-4">
+                        <div className="col-md-4">
                             <div>
                                 <FontAwesomeIcon icon={faBullhorn} />
                             </div>

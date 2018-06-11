@@ -28,7 +28,7 @@ export class Navigation extends React.Component {
       <header>
         <Navbar color="dark" dark expand="md" className="fixed-top">
           <NavbarBrand href="/">Brandi</NavbarBrand>
-          <div class="sep">|</div><div class="tagline">I am your tag line</div>
+          <div className="sep">|</div><div className="tagline">I am your tag line</div>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

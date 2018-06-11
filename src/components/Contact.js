@@ -9,37 +9,37 @@ export class Contact extends React.Component {
     render () {
         return (
             <section id="contact">
-                <div class="container">
+                <div className="container">
                     <h2>Let's Discuss</h2>
                     <Divider />
-                    <h3 class="text-center">Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</h3>
-                    <div class="contact-info row">
-                        <div class="address col-3">
-                            <p class="title">Cras at ultrices erat, sed vulputate!</p>
+                    <h3 className="text-center">Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</h3>
+                    <div className="contact-info row">
+                        <div className="address col-3">
+                            <p className="title">Cras at ultrices erat, sed vulputate!</p>
                             <p>2345 Setwant natrer, 1234,<br />
                             Washington, United States,<br />
                             (401) 1234 567<br />
                             hello@brandi.com<br />
                             www.brandi.com</p>
                         </div>
-                        <div class="hello col">
-                            <p class="title">Say hello!</p>
+                        <div className="hello col">
+                            <p className="title">Say hello!</p>
                             <form>
-                                <div class="form-group">
-                                    <div class="form-row">
-                                        <div class="col-6">
-                                            <input type="text" placeholder="Name" class="form-control" />
+                                <div className="form-group">
+                                    <div className="form-row">
+                                        <div className="col-6">
+                                            <input type="text" placeholder="Name" className="form-control" />
                                         </div>
-                                        <div class="col-6">
-                                            <input type="text" placeholder="Email" class="form-control" />  
+                                        <div className="col-6">
+                                            <input type="text" placeholder="Email" className="form-control" />  
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Message" class="form-control" />
+                                <div className="form-group">
+                                    <input type="text" placeholder="Message" className="form-control" />
                                 </div>
-                                <div class="form-group text-right send">
-                                <FontAwesomeIcon icon={faEnvelope} /><input type="submit" class="btn btn-text" value="Send Message" />
+                                <div className="form-group text-right send">
+                                <FontAwesomeIcon icon={faEnvelope} /><input type="submit" className="btn btn-text" value="Send Message" />
                                 </div>
                             </form>
                         </div>

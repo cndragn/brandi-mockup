@@ -12,7 +12,7 @@ export class Jumbotron extends React.Component {
     render() {
         return (
             <div style={ sectionStyle } className="jumbotron">
-                <div class="container text">
+                <div className="container text">
                     <div>
                     <h1>Meet <span>Brandi</span>!</h1> 
                     <h2><span>/creative</span> one page template</h2> 

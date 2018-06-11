@@ -15,29 +15,29 @@ var sectionStyle = {
 export class Facts extends React.Component {
     render () {
         return (
-            <section id="facts" style={ sectionStyle } resizeMode='contain' >
-                <div class="container">
+            <section id="facts" style={ sectionStyle } resizemode='contain' >
+                <div className="container">
                     <h2>Some Fun Facts</h2>
                     <Divider />
-                    <div class="container-fluid row text-center">
-                        <div class="col-md-3">
-                            <div class="circle"><FontAwesomeIcon icon={faClock} /></div>
-                            <p class="num">3200</p>
+                    <div className="container-fluid row text-center">
+                        <div className="col-md-3">
+                            <div className="circle"><FontAwesomeIcon icon={faClock} /></div>
+                            <p className="num">3200</p>
                             <p>Hours of Work</p>
                         </div>
-                        <div class="col-md-3">
+                        <div className="col-md-3">
                             <div><FontAwesomeIcon icon={faUser} /></div>
-                            <p class="num">120</p>
+                            <p className="num">120</p>
                             <p>Satisfied Clients</p>
                         </div>
-                        <div class="col-md-3">
+                        <div className="col-md-3">
                             <div><FontAwesomeIcon icon={faRocket} /></div>
-                            <p class="num">360</p>
+                            <p className="num">360</p>
                             <p>Projects Delivered</p>
                         </div>
-                        <div class="col-md-3">
+                        <div className="col-md-3">
                             <div><FontAwesomeIcon icon={faTrophy} /></div>
-                            <p class="num">42</p>
+                            <p className="num">42</p>
                             <p>Awards Won</p>
                         </div>
                     </div>

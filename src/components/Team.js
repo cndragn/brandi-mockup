@@ -9,36 +9,36 @@ export class Team extends React.Component {
     render () {
         return (
             <section id="team">
-                <div class="container">
+                <div className="container">
                     <h2>Meet Our Team</h2>
                     <Divider />
-                    <h3 class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</h3>
+                    <h3 className="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</h3>
                     
-                    <div class="container-fluid row text-center">
-                        <div class="col-md-3">
-                            <div class="info">
-                                <img src={Man01} />
+                    <div className="container-fluid row text-center">
+                        <div className="col-md-3">
+                            <div className="info">
+                                <img src={Man01} alt="" />
                                 <p>John Filmr Doe</p>
                             </div>
                             <p>Managing Director</p>
                         </div>
-                        <div class="col-md-3">
-                        <div class="info">
-                                <img src={Woman} />
+                        <div className="col-md-3">
+                        <div className="info">
+                                <img src={Woman} alt="" />
                                 <p>Chrystine Hineu</p>                                
                             </div>
                             <p>Lead Designer</p>
                         </div>
-                        <div class="col-md-3">
-                        <div class="info">
-                                <img src={Man02} />
+                        <div className="col-md-3">
+                        <div className="info">
+                                <img src={Man02} alt="" />
                                 <p>Martin Matrone</p>                                
                             </div>
                             <p>Lead Developer</p>
                         </div>
-                        <div class="col-md-3">
-                        <div class="info">
-                                <img src={Man03} />
+                        <div className="col-md-3">
+                        <div className="info">
+                                <img src={Man03} alt="" />
                                 <p>Steve Flaulkin</p>                                
                             </div>
                             <p>Sr. UI Designer</p>
