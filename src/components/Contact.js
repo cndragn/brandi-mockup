@@ -38,7 +38,7 @@ export class Contact extends React.Component {
                                 <div class="form-group">
                                     <input type="text" placeholder="Message" class="form-control" />
                                 </div>
-                                <div class="form-group text-right">
+                                <div class="form-group text-right send">
                                 <FontAwesomeIcon icon={faEnvelope} /><input type="submit" class="btn btn-text" value="Send Message" />
                                 </div>
                             </form>

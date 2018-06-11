@@ -6,6 +6,7 @@ import {Works} from './components/Works';
 import {Team} from './components/Team';
 import {Facts} from './components/Facts';
 import {Contact} from './components/Contact';
+import {Footer} from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
       < Team />
       < Facts />
       < Contact />
+      <Footer />
       </div>
     );
   }

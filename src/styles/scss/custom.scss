@@ -7,6 +7,7 @@
 @import "partials/team";
 @import "partials/facts";
 @import "partials/contact";
+@import "partials/footer";
 
 
 .lined {
@@ -72,4 +73,14 @@ section {
             }
         }
     }
+}
+
+// FORM
+
+textarea:focus,
+input[type="submit"]:focus,
+input[type="text"]:focus {   
+  border-color: none;
+  box-shadow: none;
+  outline: 0 none;
 }
