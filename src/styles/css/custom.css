@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Khula:300,400,600,700|Hind:500,600|Norican");
+@import url("https://fonts.googleapis.com/css?family=Khula:300,400,600,700|Hind:500,600|Pacifico");
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
@@ -6757,8 +6757,8 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0 50px;
   font-weight: 300; }
   .navbar .navbar-brand {
-    font-family: "Norican", cursive;
-    font-size: 2.2rem; }
+    font-family: "Pacifico", cursive;
+    font-size: 1.7rem; }
   .navbar .sep {
     font-size: 1rem;
     padding: 0 10px; }
@@ -6909,7 +6909,9 @@ footer {
   color: #fff;
   font-size: .9rem; }
   footer h2 {
-    font-family: "Norican", cursive; }
+    font-family: "Pacifico", cursive;
+    font-size: 1.7rem;
+    padding-bottom: 13px; }
   footer h3 {
     font-size: 1.1rem;
     font-weight: 600;
