@@ -6753,6 +6753,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 .navbar {
   color: #f5f7fb;
+  background-color: rgba(0, 0, 0, 0.2);
   font-size: 0.8rem;
   padding: 0 50px;
   font-weight: 300; }
@@ -6762,6 +6763,8 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar .sep {
     font-size: 1rem;
     padding: 0 10px; }
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #e9ecef;

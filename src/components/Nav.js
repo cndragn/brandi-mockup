@@ -26,7 +26,7 @@ export class Navigation extends React.Component {
   render() {
     return (
       <header>
-        <Navbar color="dark" dark expand="md" className="fixed-top">
+        <Navbar dark expand="md" className="fixed-top">
           <NavbarBrand href="/">Brandi</NavbarBrand>
           <div className="sep">|</div><div className="tagline">I am your tag line</div>
           <NavbarToggler onClick={this.toggle} />
