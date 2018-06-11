@@ -14,7 +14,7 @@ export class Contact extends React.Component {
                     <Divider />
                     <h3 className="text-center">Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</h3>
                     <div className="contact-info row">
-                        <div className="address col-3">
+                        <div className="address col-md-3">
                             <p className="title">Cras at ultrices erat, sed vulputate!</p>
                             <p>2345 Setwant natrer, 1234,<br />
                             Washington, United States,<br />
@@ -43,7 +43,7 @@ export class Contact extends React.Component {
                                 </div>
                             </form>
                         </div>
-                        <div className="social col-1">
+                        <div className="social col-md-1">
                             <a href="http://www.behance.com"><FontAwesome name='behance' /></a>
                             <a href="http://www.twitter.com"><FontAwesome name='twitter' /></a>
                             <a href="http://www.dribble.com"><FontAwesome name='dribbble' /></a>

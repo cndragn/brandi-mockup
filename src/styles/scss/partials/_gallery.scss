@@ -1,0 +1,62 @@
+#gallery {
+
+    .row {
+        margin: 8px 0;
+        // height: 461px;
+        // overflow: hidden;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+        display: none; /* Hide columns by default */
+    }
+
+    .col-md-3 {
+        padding: 0;
+    }
+    
+    /* Clear floats after rows */ 
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* Content */
+    img {
+        width: 100%;
+    }
+    .content {
+        background-color: white;
+    }
+    
+    /* The "show" class is added to the filtered elements */
+    .show {
+        display: block;
+    }
+    
+    /* Style the buttons */
+    #myBtnContainer {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background-color: $white;
+      font-weight: 600;
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .btn:hover {
+      color: $primary;
+    }
+    
+    /* Add a dark background color to the active button */
+    .btn.active {
+      background-color: $primary;
+       color: white;
+    }
+}

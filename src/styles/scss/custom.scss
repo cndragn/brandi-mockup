@@ -4,11 +4,11 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "partials/header";
 @import "partials/features";
+@import "partials/gallery";
 @import "partials/team";
 @import "partials/facts";
 @import "partials/contact";
 @import "partials/footer";
-
 
 .lined {
     line-height: 0.5;
@@ -84,3 +84,5 @@ input[type="text"]:focus {
   box-shadow: none;
   outline: 0 none;
 }
+
+@import "partials/mobile";

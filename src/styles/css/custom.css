@@ -6830,6 +6830,46 @@ a.text-dark:hover, a.text-dark:focus {
       padding: 10px;
       margin-right: 13px; }
 
+#gallery {
+  /* Create three equal columns that floats next to each other */
+  /* Clear floats after rows */
+  /* Content */
+  /* The "show" class is added to the filtered elements */
+  /* Style the buttons */
+  /* Add a grey background color on mouse-over */
+  /* Add a dark background color to the active button */ }
+  #gallery .row {
+    margin: 8px 0; }
+  #gallery .column {
+    display: none;
+    /* Hide columns by default */ }
+  #gallery .col-md-3 {
+    padding: 0; }
+  #gallery .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  #gallery img {
+    width: 100%; }
+  #gallery .content {
+    background-color: white; }
+  #gallery .show {
+    display: block; }
+  #gallery #myBtnContainer {
+    text-align: center;
+    margin-bottom: 30px; }
+  #gallery .btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: 600; }
+  #gallery .btn:hover {
+    color: #4cb28f; }
+  #gallery .btn.active {
+    background-color: #4cb28f;
+    color: white; }
+
 #team img {
   max-width: 100%;
   -webkit-filter: grayscale(100%);
@@ -7002,5 +7042,9 @@ input[type="text"]:focus {
   border-color: none;
   box-shadow: none;
   outline: 0 none; }
+
+@media only screen and (max-width: 767px) {
+  #contact .social {
+    flex-direction: row; } }
 
 /*# sourceMappingURL=custom.css.map */
