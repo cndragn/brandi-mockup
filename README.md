@@ -16,16 +16,16 @@ React, Bootstrap, Sass
 ## Run locally
 
 * Clone brandi repo and cd into it
-    * terminal: `yarn start`
+    * terminal: `npm start`
 * To process Sass
-    * in seperate terminal: `yarn run sass`
+    * in seperate terminal: `npm run sass`
 
 ## Sass processor set up
 
 * terminal: `gem install sass`
 * In `package.json`'s scripts, add this line: `"sass" : "sass --watch src/styles/scss:src/styles/css"`
 * Create your custom bootstrap theme file `src/styles/scss/custom.scss`
-* Open a new tab in terminal: `yarn run sass`
+* Open a new tab in terminal: `npm run sass`
 * In src/index.js replace `import 'bootstrap/dist/css/bootstrap.css';` with `import './styles/css/custom.css';`
 * At bottom of custom.scss file add `@import "../../../node_modules/bootstrap/scss/bootstrap";`
 
