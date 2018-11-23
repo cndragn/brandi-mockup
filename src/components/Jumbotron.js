@@ -7,7 +7,7 @@ var sectionStyle = {
 	backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${Background})`
 };
 
-export class Jumbotron extends React.Component {
+class Jumbotron extends React.Component {
 	render() {
 		return (
 			<div style={sectionStyle} className="jumbotron">
@@ -42,3 +42,5 @@ export class Jumbotron extends React.Component {
 		);
 	}
 }
+
+export default Jumbotron;
