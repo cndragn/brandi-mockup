@@ -1,3 +1,3 @@
 yml language: 
   node_js node_js: - "0.12" 
-  after_success: - surge --project home/candice/Dev/mockups/brandi/build --domain brandi-react.surge.sh/
+  after_success: - surge --project ./build --domain brandi-react.surge.sh/
