@@ -3,7 +3,7 @@ import React from 'react';
 class Gallery extends React.Component {
 	render() {
 		return (
-			<div id="gallery">
+			<div>
 				<div id="myBtnContainer">
 					<button className="btn active" onClick="filterSelection('all')">
 						{' '}
@@ -27,7 +27,7 @@ class Gallery extends React.Component {
 					</button>
 				</div>
 
-				<div className="row">
+				<div id="gallery">
 					<div className="column col-md-3 branding">
 						<div className="content">
 							<img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Mountains" />
