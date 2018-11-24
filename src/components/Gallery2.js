@@ -2,14 +2,13 @@ import React from 'react';
 import PICTURES from '../data/pictures';
 
 const SinglePic = ({ category, name, url }) => (
-	<div className="column col-md-3 branding">
-		<div className={`category--${category} content circle`} />
-		<img src={url} alt={name} />
+	<div className="pic">
+		<img className={`category--${category}`} src={url} alt={name} />
 	</div>
 );
 
 const PictureList = ({ state: { pictures, displayCategory } }) => (
-	<div>
+	<div id="gallery">
 		{pictures
 			.filter(({ category }) => displayCategory === category || displayCategory === 'all')
 			.map(({ category, name, url }) => (
@@ -51,13 +50,9 @@ class Gallery extends React.Component {
 	}
 	render() {
 		return (
-			<div id="gallery">
-				<div id="myBtnContainer" className="box flex-col">
-					{ButtonCategories(this.state.picCategories, this.setCategory)}
-				</div>
-				<div className="box flex-col">
-					<PictureList state={this.state} />
-				</div>
+			<div>
+				<div id="myBtnContainer">{ButtonCategories(this.state.picCategories, this.setCategory)}</div>
+				<PictureList state={this.state} />
 			</div>
 		);
 	}

@@ -24,4 +24,27 @@
 }
 
 #gallery {
+	display: flex;
+	flex-wrap: wrap;
+
+	.pic {
+		display: block;
+		flex: 0 0 25%;
+		max-width: 25%;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	// .pic {
+	// 	width: 25%;
+	// 	overflow: hidden;
+	// 	img {
+	// 		width: auto;
+	// 		height: auto;
+	// 		min-width: 100%;
+	// 		min-height: 100%;
+	// 	}
+	// }
 }
