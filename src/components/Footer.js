@@ -51,7 +51,7 @@ class Footer extends React.Component {
 								Kreativeshowcase<br />
 								Developed by <a href="http://www.candicedavidson.com">Candice Davidson</a>
 							</p>
-							<p>2014 Brandi. All Rights Reserved.</p>
+							<p>{new Date().getFullYear()} Brandi. All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
