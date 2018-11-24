@@ -10,9 +10,11 @@
 		"ajv": "^6.5.5",
 		"bootstrap": "^4.1.1",
 		"react": "^16.4.0",
+		"react-countup": "^3.0.0",
 		"react-dom": "^16.4.0",
 		"react-fontawesome": "^1.6.1",
 		"react-scripts": "^2.1.1",
+		"react-visibility-sensor": "^5.0.2",
 		"reactstrap": "^6.0.1"
 	},
 	"scripts": {
@@ -29,5 +31,10 @@
 		"jest-enzyme": "^7.0.1",
 		"surge": "^0.20.1"
 	},
-	"browserslist": [ ">0.2%", "not dead", "not ie <= 11", "not op_mini all" ]
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	]
 }
