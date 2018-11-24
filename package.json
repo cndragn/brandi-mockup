@@ -20,7 +20,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"test": "react-scripts test --coverage --watch",
+		"test": "react-scripts test --coverage",
 		"eject": "react-scripts eject",
 		"sass": "sass --watch src/styles/scss:src/styles/css"
 	},
@@ -31,10 +31,5 @@
 		"jest-enzyme": "^7.0.1",
 		"surge": "^0.20.1"
 	},
-	"browserslist": [
-		">0.2%",
-		"not dead",
-		"not ie <= 11",
-		"not op_mini all"
-	]
+	"browserslist": [ ">0.2%", "not dead", "not ie <= 11", "not op_mini all" ]
 }

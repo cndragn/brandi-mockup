@@ -6,12 +6,12 @@ PSD Mockup: [Brandi One Page PSD Template](https://i2.wp.com/kreativeshowcase.co
 
 ## Description
 
-Work in Progress\
 Developing a PSD into a fully featured React website
 
 ## Technologies Used
 
-React, Bootstrap, Sass
+ReactJS, Bootstrap, Sass, Travis-CI, Jest, Enzyme\
+CI/CD w Integrated testing & automatic deployment
 
 ## Run locally
 
@@ -29,7 +29,9 @@ React, Bootstrap, Sass
 * In src/index.js replace `import 'bootstrap/dist/css/bootstrap.css';` with `import './styles/css/custom.css';`
 * At bottom of custom.scss file add `@import "../../../node_modules/bootstrap/scss/bootstrap";`
 
-## Deploy to Surge
+### Manual deployment
+
+*Deploy to Surge*
 
 * Update api in IdeaForm.js and IdeasContainer.js from localhost:3001
 * terminal: `npm run build`
@@ -38,7 +40,7 @@ React, Bootstrap, Sass
 * Add `build` at end of project path
 * Change project url if desired, ending with surge.sh
 
-## Update project on Surge
+*Update project on Surge*
 
 * terminal: `npm run build`
 * terminal: `surge`
@@ -49,4 +51,4 @@ React, Bootstrap, Sass
 ### Attributions
 Design: [kreativeshowecase.com Brandi One Page PSD Template](http://kreativeshowcase.com/2014/03/freebie-brandi-creative-one-page-multi-purpose-psd-template/)\
 Header background: [pixabay 1990470](https://pixabay.com/en/filter-square-instagram-texture-1990470/)
-
+Team Photos: [pixabay](https://pixabay.com) & [pexals](http://pexals.com)
