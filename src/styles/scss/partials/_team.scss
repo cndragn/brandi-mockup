@@ -1,20 +1,65 @@
 #team {
-    img {
-        max-width: 100%;
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%)
-    }
+	img {
+		max-width: 100%;
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+		filter: grayscale(100%);
+	}
 
-    .info {
-        color:  $gray-700;
-        p {
-            margin: 10px 0 0;
-            font-size: 1.2rem;
-            font-weight: 600;
-        }
+	.info {
+		color: $gray-700;
+		p {
+			margin: 10px 0 0;
+			font-size: 1.2rem;
+			font-weight: 600;
+		}
 
-        &:hover {
-            color: $primary;
-        }
-    }
+		&:hover {
+			color: $primary;
+		}
+	}
+	.bio {
+		position: relative;
+		background: $primary;
+		&:hover img {
+			-webkit-transition: opacity 1s ease-in-out;
+			-moz-transition: opacity 1s ease-in-out;
+			-o-transition: opacity 1s ease-in-out;
+			transition: opacity .4s ease-in-out;
+			opacity: 0;
+		}
+		.bio-text,
+		.bio-fa {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			color: $white;
+			opacity: 0;
+		}
+		.bio-text {
+			top: 25px;
+			font-weight: 700;
+		}
+		.bio-fa {
+			bottom: 15px;
+			width: 100%;
+			.fa {
+				background-color: $primary-dark;
+				padding: 7px;
+				width: 35px;
+				height: 35px;
+				margin: 0 3px;
+				&:hover {
+					border: 1px solid darken($primary, 20%);
+				}
+			}
+		}
+		&:hover .bio-text,
+		&:hover .bio-fa {
+			-webkit-transition: opacity 1s ease-in-out;
+			-moz-transition: opacity 1s ease-in-out;
+			-o-transition: opacity 1s ease-in-out;
+			transition: opacity .6s ease-in-out;
+			opacity: 1;
+		}
+	}
 }

@@ -7,11 +7,12 @@ $black-opaque: rgba(0, 0, 0, 0.8);
 $gray-600: #6c757d !default;
 
 $primary: $aqua;
+$primary-dark: darken($primary, 10%);
 $secondary: $off-white;
 $dark: $black-sheer;
 $darker: $black-opaque;
 
-$body-color:                $gray-600 !default;
+$body-color: $gray-600 !default;
 
 $social-link-color: rgba($white, .5) !default;
 $social-link-hover-color: rgba($white, .90) !default;

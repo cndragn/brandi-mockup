@@ -6871,6 +6871,42 @@ a.text-dark:hover, a.text-dark:focus {
     font-weight: 600; }
   #team .info:hover {
     color: #4cb28f; }
+#team .bio {
+  position: relative;
+  background: #4cb28f; }
+  #team .bio:hover img {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity .4s ease-in-out;
+    opacity: 0; }
+  #team .bio .bio-text,
+  #team .bio .bio-fa {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    opacity: 0; }
+  #team .bio .bio-text {
+    top: 25px;
+    font-weight: 700; }
+  #team .bio .bio-fa {
+    bottom: 15px;
+    width: 100%; }
+    #team .bio .bio-fa .fa {
+      background-color: #3d8e72;
+      padding: 7px;
+      width: 35px;
+      height: 35px;
+      margin: 0 3px; }
+      #team .bio .bio-fa .fa:hover {
+        border: 1px solid #2d6b56; }
+  #team .bio:hover .bio-text, #team .bio:hover .bio-fa {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity .6s ease-in-out;
+    opacity: 1; }
 
 #facts {
   background-size: cover;
