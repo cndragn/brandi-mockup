@@ -7,7 +7,7 @@ import faUser from '@fortawesome/fontawesome-free-solid/faUser';
 import faRocket from '@fortawesome/fontawesome-free-solid/faRocket';
 import faTrophy from '@fortawesome/fontawesome-free-solid/faTrophy';
 import CountUp from 'react-countup';
-import VisibilitySensor from 'react-visibility-sensor';
+// import VisibilitySensor from 'react-visibility-sensor';
 
 var sectionStyle = {
 	backgroundImage: `linear-gradient(rgba(36,55,68,0.7), rgba(36,55,68,0.7)), url(${Background})`
