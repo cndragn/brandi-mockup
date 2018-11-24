@@ -4,6 +4,8 @@ Demo: http://brandi-react.surge.sh/
 
 PSD Mockup: [Brandi One Page PSD Template](https://i2.wp.com/kreativeshowcase.com/wp-content/uploads/2014/03/01_Bandi_LandingPage_PSD_Template1_by_Kreativeshowcase.jpg)
 
+CI/CD Build: https://travis-ci.org/cndragn/brandi-mockup
+
 ## Description
 
 Developing a PSD into a fully featured React website

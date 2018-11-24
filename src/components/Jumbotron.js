@@ -10,7 +10,7 @@ var sectionStyle = {
 class Jumbotron extends React.Component {
 	render() {
 		return (
-			<div style={sectionStyle} className="jumbotron">
+			<div id="home" style={sectionStyle} className="jumbotron">
 				<div className="container text">
 					<div>
 						<h1>
@@ -20,7 +20,7 @@ class Jumbotron extends React.Component {
 							<span>/creative</span> one page template
 						</h2>
 						<h3 className="lined">
-							<em>We are a team of professionals!</em>
+							<em>We are a team of professionals</em>
 						</h3>
 					</div>
 				</div>

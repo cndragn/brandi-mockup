@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollspyNav from 'react-scrollspy-nav';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 class Navigation extends React.Component {
@@ -23,24 +24,30 @@ class Navigation extends React.Component {
 					<div className="sep">|</div>
 					<div className="tagline">I am your tag line</div>
 					<NavbarToggler onClick={this.toggle} />
-					<Collapse isOpen={this.state.isOpen} navbar>
-						<Nav className="ml-auto" navbar>
-							<NavItem>
-								<NavLink href="#">Home</NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href="#">Features</NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href="#">Works</NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href="#">Team</NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href="#">Contact</NavLink>
-							</NavItem>
-						</Nav>
+					<Collapse className="justify-content-end" isOpen={this.state.isOpen} navbar>
+						<ScrollspyNav
+							scrollTargetIds={[ 'home', 'features', 'works', 'team', 'contact' ]}
+							activeNavClass="is-active"
+							scrollDuration="1000"
+						>
+							<Nav className="ml-auto" navbar>
+								<NavItem>
+									<NavLink href="#home">Home</NavLink>
+								</NavItem>
+								<NavItem>
+									<NavLink href="#features">Features</NavLink>
+								</NavItem>
+								<NavItem>
+									<NavLink href="#works">Works</NavLink>
+								</NavItem>
+								<NavItem>
+									<NavLink href="#team">Team</NavLink>
+								</NavItem>
+								<NavItem>
+									<NavLink href="#contact">Contact</NavLink>
+								</NavItem>
+							</Nav>
+						</ScrollspyNav>
 					</Collapse>
 				</Navbar>
 			</header>
