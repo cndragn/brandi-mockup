@@ -1,7 +1,7 @@
 import React from 'react';
 import Divider from './Divider';
 import Woman from '../images/graffiti-girl-2468336.jpg';
-import Man01 from '../images/male-model-2911329.jpg';
+import Woman02 from '../images/adult-afro-blur-1181519.jpg';
 import Man02 from '../images/laughing-man-1690965.jpg';
 import Man03 from '../images/smiling-man-888532.jpg';
 
@@ -23,7 +23,7 @@ class Team extends React.Component {
 						<div className="col-md-3">
 							<div className="info">
 								<div className="bio">
-									<img src={Man01} alt="" />
+									<img src={Man02} alt="" />
 									<div className="bio-text">
 										Loren gypsum dolor sit mate, time am tied. Ea alien um accustoms quo.
 									</div>
@@ -57,7 +57,7 @@ class Team extends React.Component {
 						<div className="col-md-3">
 							<div className="info">
 								<div className="bio">
-									<img src={Man02} alt="" />
+									<img src={Man03} alt="" />
 									<div className="bio-text">
 										Loren gypsum dolor sit mate, time am tied. Ea alien um accustoms quo.
 									</div>
@@ -74,7 +74,7 @@ class Team extends React.Component {
 						<div className="col-md-3">
 							<div className="info">
 								<div className="bio">
-									<img src={Man03} alt="" />
+									<img src={Woman02} alt="" />
 									<div className="bio-text">
 										Loren gypsum dolor sit mate, time am tied. Ea alien um accustoms quo.
 									</div>
@@ -84,7 +84,7 @@ class Team extends React.Component {
 										<FontAwesome name="google-plus" />
 									</div>
 								</div>
-								<p>Steve Flaulkin</p>
+								<p>Stella Flaulkin</p>
 							</div>
 							<p>Sr. UI Designer</p>
 						</div>
