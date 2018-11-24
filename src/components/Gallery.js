@@ -10,7 +10,7 @@ const SinglePic = ({ category, name, url }) => (
 const PictureList = ({ state: { pictures, displayCategory } }) => (
 	<div id="gallery">
 		{pictures
-			.filter(({ category }) => displayCategory === category || displayCategory === 'all')
+			.filter(({ category }) => displayCategory === category || displayCategory === 'All')
 			.map(({ category, name, url }) => (
 				<SinglePic key={`PictureList-${name}`} category={category} name={name} url={url} />
 			))}
@@ -30,14 +30,14 @@ const ButtonCategories = (picCategories, setCategory) =>
 const eachPic = (x, i, array) => array.indexOf(x) === i;
 const PICTURE_CATEGORIES = PICTURES.map((pic) => pic.category).filter(eachPic);
 
-PICTURE_CATEGORIES.push('all');
+PICTURE_CATEGORIES.push('All');
 PICTURE_CATEGORIES.sort();
 
 class Gallery extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			displayCategory: 'all',
+			displayCategory: 'All',
 			pictures: PICTURES,
 			picCategories: PICTURE_CATEGORIES
 		};

@@ -6849,6 +6849,16 @@ a.text-dark:hover, a.text-dark:focus {
   #myBtnContainer .btn.active {
     background-color: #4cb28f;
     color: white; }
+  #myBtnContainer .btn.active.focus,
+  #myBtnContainer .btn.active:focus,
+  #myBtnContainer .btn.focus,
+  #myBtnContainer .btn:active.focus,
+  #myBtnContainer .btn:active:focus,
+  #myBtnContainer .btn:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #4cb28f;
+    color: #fff; }
 
 #gallery {
   display: flex;
