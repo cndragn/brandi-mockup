@@ -1,5 +1,5 @@
 import React from 'react';
-import Gallery from './Gallery2';
+import Gallery from './Gallery';
 import Divider from './Divider';
 
 class Works extends React.Component {
